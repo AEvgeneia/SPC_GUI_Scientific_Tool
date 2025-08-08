@@ -1,8 +1,9 @@
 # SPC GUI: Statistical Process Control for Gamma Passing Rate Data
 
+
 > Version: 1.0.0 – August 2025
 
-**SPC_GUI** is a Python-based GUI application for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
+**SPC_GUI** is a Python-based GUI application (also available as a Windows executable) for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
 
 ---
 
@@ -39,40 +40,32 @@
 
 ## 🖥️ How to Use the App
 
-1. **Python 3 is required.**  
-   If it's not already installed, you can download it from:  
-   https://www.python.org/downloads/  
-   *(During installation, make sure to check "Add Python to PATH")*
+### Option 1: Run the Executable (Windows)
 
-2. Git is required **if** you want to clone the repository from GitHub.  
-   If Git is not installed, download it from:  
-   https://git-scm.com/downloads
+If you're using Windows, an installable `.exe` version is available.
 
-3. Clone this repository or download the files manually:
+- Download the installer from the [Releases](#-releases) section.
+- Run the installer and follow the on-screen instructions.
+- Once installed, you can launch the SPC GUI from the Start Menu or desktop shortcut.
 
-   - Using Git (requires Git installed):
-     ```bash
-     git clone https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool.git
-     cd SPC_GUI_Scientific_Tool
-     ```
+---
 
-   - Or manually:
-     - Click the green **“Code”** button on this page
-     - Choose **“Download ZIP”**
-     - Unzip it somewhere on your computer
+### Option 2: Run from Python Source (cross-platform)
 
-4. **Install required Python packages**:  
-   Open a terminal and navigate to the project folder (if not already there):
+Ensure Python 3 is installed. Then:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool.git
+cd SPC_GUI_Scientific_Tool
+pip install -r requirements.txt
+python SPC_GUI.py
+```
+---
 
-5. **Run the app**:  
+## 📦 Releases
 
-   ```bash
-   python SPC_GUI.py
-   ```
+You can find the latest installable Windows executable in the  
+[Releases section](https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool/releases) of this repository.
 
 ---
 
@@ -87,7 +80,7 @@ Your input file must follow a specific format with required columns:
 If you want to perform SPC on the **mean gamma (γ)** value, the column `MedianDoseDev` is also required.
 
 A sample Excel template is available in the `example_data/` folder:
-example_data/template.xlsx
+`input_example/template.xlsx`
 
 ---
 
@@ -132,7 +125,7 @@ All contributions are welcome and appreciated!
 
 ## 📧 Contact
 
-If you use this app in your research or have questions, feel free to reach out via aspaeug@med.uoa.gr or or cite the repository using the provided `CITATION.cff` file.
+If you use this app in your research or have questions, feel free to reach out via aspaeu[at]med.uoa.gr or or cite the repository using the provided `CITATION.cff` file.
 
 **This tool was developed as part of ongoing research in medical physics and QA analysis.**
 
