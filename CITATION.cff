@@ -5,6 +5,6 @@ authors:
     given-names: [Aspasia, Evangelia]  
 title: "SPC_GUI: A Python Tool for Statistical Process Control of Gamma Passing Rate Data"
 version: 1.0.0
-date-released: 2025-08-06
+date-released: 2025-08-08
 url: https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool  
 type: software
