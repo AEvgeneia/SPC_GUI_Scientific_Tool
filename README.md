@@ -124,7 +124,7 @@ All contributions are welcome and appreciated!
 
 ## 📧 Contact
 
-If you use this app in your research or have questions, feel free to reach out via aspaeu[at]med.uoa.gr or or cite the repository using the provided `CITATION.cff` file.
+If you use this app in your research or have questions, feel free to reach out via aspaeu[at]med.uoa.gr or or cite the repository using the provided [CITATION.cff](CITATION.cff) file.
 
 **This tool was developed as part of ongoing research in medical physics and QA analysis.**
 
