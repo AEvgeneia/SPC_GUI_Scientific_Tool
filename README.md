@@ -64,8 +64,7 @@ python SPC_GUI.py
 
 ## 📦 Releases
 
-You can find the latest installable Windows executable in the  
-[Releases section](https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool/releases) of this repository.
+You can find the latest installable Windows executable in the [Releases section](https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool/releases) of this repository.
 
 ---
 
@@ -112,7 +111,7 @@ All dependencies are listed in requirements.txt. Main ones include:
 
 ## 🪪 License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software with attribution.
 
 ---
 
