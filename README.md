@@ -122,6 +122,11 @@ All contributions are welcome and appreciated!
 
 ---
 
+## 🧠 Acknowledgements
+This tool was developed as part of ongoing research at the Laboratory of Medical Physics, Department of Medicine, National and Kapodistrian University of Athens.
+
+---
+
 ## 📧 Contact
 
 If you use this app in your research or have questions, feel free to reach out via aspaeu[at]med.uoa.gr or or cite the repository using the provided [CITATION.cff](CITATION.cff) file.
