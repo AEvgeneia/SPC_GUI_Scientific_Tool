@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Evgeneia
+    given-names: [Aspasia, Evangelia]  # Replace with your real first name if you'd like
+title: "SPC_GUI: A Python Tool for Statistical Process Control of Gamma Passing Rate Data"
+version: 1.0.0
+date-released: 2025-08-06
+url: https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool  # Replace with your actual GitHub repo URL
+type: software
