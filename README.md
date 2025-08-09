@@ -3,7 +3,7 @@
 
 > Version: 1.0.0 – August 2025
 
-**SPC_GUI** is a Python-based GUI application (also available as a Windows executable) for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
+**SPC_GUI** is a Python-based GUI application (available as executables for Windows and macOS) for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
 
 ---
 
@@ -40,13 +40,17 @@
 
 ## 🖥️ How to Use the App
 
-### Option 1: Run the Executable (Windows)
+### Option 1: Run the Executable (Windows & macOS)
 
-If you're using Windows, an installable `.exe` version is available.
+- **Windows**  
+  - Download the `.zip` package from the [Releases](#-releases) section.  
+  - Extract the contents and run the executable file.  
+  - If Windows SmartScreen or antivirus shows a warning, choose **"Run anyway"** (the app is safe).  
 
-- Download the installer from the [Releases](#-releases) section.
-- Run the installer and follow the on-screen instructions.
-- Once installed, you can launch the SPC GUI from the Start Menu or desktop shortcut.
+- **macOS (Apple Silicon – M1/M2)**  
+  - Download the `.zip` package from the [Releases](#-releases) section.  
+  - Extract the contents and run the application.  
+  - If macOS Gatekeeper warns that the app is from an unidentified developer, right-click the app, select **"Open"**, and confirm.
 
 ---
 
@@ -64,7 +68,7 @@ python SPC_GUI.py
 
 ## 📦 Releases
 
-You can find the latest installable Windows executable in the [Releases section](https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool/releases) of this repository.
+You can find the latest installable executables for **Windows** and **macOS (M1/M2)** in the [Releases section](https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool/releases) of this repository.
 
 ---
 
