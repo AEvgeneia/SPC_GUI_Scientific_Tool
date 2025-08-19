@@ -23,6 +23,7 @@
     - Scaled Weighted Variance (SWV) I - Control Charts
     - Skewness Correction (SC) I - Control Charts
   - Detect and visualize outliers on control charts.
+  - Interactive I‑charts: click any point to instantly see its ID and inspect it before elimination.
   - Use the interactive elimination loop to remove selected outliers and recalculate control and specification limits in real-time.
 - Export results:
   - PDF files with SPC charts and histograms.
@@ -134,6 +135,4 @@ This tool was developed as part of ongoing research at the Laboratory of Medical
 ## 📧 Contact
 
 If you use this app in your research or have questions, feel free to reach out via aspaeu[at]med.uoa.gr or or cite the repository using the provided [CITATION.cff](CITATION.cff) file.
-
-**This tool was developed as part of ongoing research in medical physics and QA analysis.**
 
