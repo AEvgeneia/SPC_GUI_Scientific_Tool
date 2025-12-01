@@ -6,6 +6,13 @@
 **GPR-SPC Analyzer** is a Python-based GUI application (available as executables for Windows and macOS) for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
 
 ---
+## 📖 User Manual
+
+A complete, step-by-step manual is available in the repository:
+
+👉 **[Download the SPC_GUI User Manual (PDF)](User Manual v1_1_0.pdf)**
+
+---
 
 ## 📌 Features
 
@@ -35,19 +42,19 @@
 
 This update introduces improvements in structure, usability and stability:
 
-### ✔ Code & Architecture
+#### ✔ Code & Architecture
 - Rewrote the entire GUI using an **Object-Oriented Programming (OOP)** architecture.
 - Improved structure for easier maintenance and future feature expansion.
 
-### ✔ User Interface Enhancements
+#### ✔ User Interface Enhancements
 - Replaced list-selection widgets with **checkbox-based selectors** for clearer metric selection.
 - Improved layout aesthetics and visual consistency across all tabs.
 
-### ✔ Bug Fixes
+#### ✔ Bug Fixes
 - Fixed a minor issue affecting internal event handling when switching SPC methods.
 - Fixed an issue affecting the file loading.
 
-### ✔ Documentation
+#### ✔ Documentation
 - Added a new **detailed analytical manual** (“User Manual v_1_1_0”), included in the repository.
 
 ---
@@ -87,14 +94,6 @@ cd SPC_GUI_Scientific_Tool
 pip install -r requirements.txt
 python SPC_GUI.py
 ```
----
-
-## 📖 User Manual
-
-A complete, step-by-step manual is available in the repository:
-
-👉 **[Download the SPC_GUI User Manual (PDF)](Manual_v1.1.0.pdf)**
-
 ---
 
 ## 📦 Releases
