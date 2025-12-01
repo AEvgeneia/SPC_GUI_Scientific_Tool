@@ -72,13 +72,13 @@ This update introduces improvements in structure, usability and stability:
 ### Option 1: Run the Executable (Windows & macOS)
 
 - **Windows**  
-  - Download the `.zip` package from the [Releases](#-releases) section.  
-  - Extract the contents and run the executable file.  
+  - Download **GPR-SPC_Analyzer.exe** from the [Releases](#-releases) section.  
+  - No installation is required — simply double-click the `.exe` to run the application.    
   - If Windows SmartScreen or antivirus shows a warning, choose **"Run anyway"** (the app is safe).  
 
 - **macOS (Apple Silicon – M1/M2)**  
-  - Download the `.zip` package from the [Releases](#-releases) section.  
-  - Extract the contents and run the application.  
+  - Download **GPR-SPC_Analyzer.app.zip** from the [Releases](#-releases) section.  
+  - Double-click the `.zip` file to extract **GPR-SPC_Analyzer.app**. 
   - If macOS Gatekeeper warns that the app is from an unidentified developer, right-click the app, select **"Open"**, and confirm.
 
 ---
