@@ -10,7 +10,7 @@
 
 A complete, step-by-step manual is available in the repository:
 
-👉 **[Download the SPC_GUI User Manual (PDF)](User%20Manual%20v_1_1_0.pdf)**
+👉 **[The GPR-SPC Analyzer User Manual (PDF)](User%20Manual%20v_1_1_0.pdf)**
 
 ---
 
@@ -51,14 +51,13 @@ This update introduces improvements in structure, usability and stability:
 - Improved layout aesthetics and visual consistency across all tabs.
 
 #### ✔ Bug Fixes
-- Fixed a minor issue affecting internal event handling when switching SPC methods.
-- Fixed an issue affecting the file loading.
+- Fixed a bug that caused occasional file loading failures.
 
 #### ✔ Documentation
 - Added a new **detailed analytical manual** (“User Manual v_1_1_0”), included in the repository.
+- Added example GPR dataset in the `input_example/` folder to support testing and demonstration of all SPC methods.
 
 ---
-
 
 ## 🎯 Who Should Use This?
 
@@ -92,8 +91,11 @@ Ensure Python 3 is installed. Then:
 git clone https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool.git
 cd SPC_GUI_Scientific_Tool
 pip install -r requirements.txt
-python SPC_GUI.py
+python SPC_for_GPR_analysis.py
 ```
+
+💡 **Recommended:** Use Python **3.12** for the most stable GUI behavior, as the application relies on Tkinter (which has improved compatibility and stability on Python 3.12+).
+
 ---
 
 ## 📦 Releases
@@ -112,6 +114,9 @@ Your input file must follow a specific format with required columns:
 
 If you want to perform SPC on the **mean gamma (γ)** value, the column `MedianDoseDev` is also required.
 
+An example GPR dataset is avalaible in the `example_data/` folder:
+`input_example/prostate_template.xlsx`
+
 A sample Excel template is available in the `example_data/` folder:
 `input_example/template.xlsx`
 
@@ -127,19 +132,6 @@ All dependencies are listed in requirements.txt. Main ones include:
 - seaborn
 - ttkthemes
 - openpyxl
-
----
-
-## 📤 Output
-
-- **On-screen display**:
-  - Interactive GUI showing loaded data, statistical summaries, histograms, normality test results, and SPC I-Charts.
-  - Options to select metrics, run different SPC methods, and eliminate outliers.
-  - All plots are displayed live within the GUI.
-
-- **Exports**:
-  - CSV files with summaries of SPC statistics, normality test results, and outlier elimination logs.
-  - PDF files containing all selected plots (SPC I-charts and histograms).
 
 ---
 
