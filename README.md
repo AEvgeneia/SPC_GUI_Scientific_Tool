@@ -1,9 +1,9 @@
-# SPC GUI: Statistical Process Control for Gamma Passing Rate Data
+# GPR-SPC Analyzer: Statistical Process Control for Gamma Passing Rate Data
 
 
-> Version: 1.0.0 – August 2025
+> Version: 1.1.0 – December 2025
 
-**SPC_GUI** is a Python-based GUI application (available as executables for Windows and macOS) for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
+**GPR-SPC Analyzer** is a Python-based GUI application (available as executables for Windows and macOS) for performing Statistical Process Control (SPC) on Gamma Passing Rate (GPR) data. Developed as a research tool for analyzing and exploring SPC methods in radiotherapy QA, it supports both standard and heuristic approaches, allows interactive outlier detection and elimination, and exports analysis results as CSV files and PDF charts.
 
 ---
 
@@ -30,6 +30,28 @@
   - CSV files containing normality test results, summary statistics, and elimination logs.
 
 ---
+
+## 🆕 What’s New in Version 1.1.0
+
+This update introduces improvements in structure, usability and stability:
+
+### ✔ Code & Architecture
+- Rewrote the entire GUI using an **Object-Oriented Programming (OOP)** architecture.
+- Improved structure for easier maintenance and future feature expansion.
+
+### ✔ User Interface Enhancements
+- Replaced list-selection widgets with **checkbox-based selectors** for clearer metric selection.
+- Improved layout aesthetics and visual consistency across all tabs.
+
+### ✔ Bug Fixes
+- Fixed a minor issue affecting internal event handling when switching SPC methods.
+- Fixed an issue affecting the file loading.
+
+### ✔ Documentation
+- Added a new **detailed analytical manual** (“User Manual v_1_1_0”), included in the repository.
+
+---
+
 
 ## 🎯 Who Should Use This?
 
@@ -65,6 +87,14 @@ cd SPC_GUI_Scientific_Tool
 pip install -r requirements.txt
 python SPC_GUI.py
 ```
+---
+
+## 📖 User Manual
+
+A complete, step-by-step manual is available in the repository:
+
+👉 **[Download the SPC_GUI User Manual (PDF)](Manual_v1.1.0.pdf)**
+
 ---
 
 ## 📦 Releases
