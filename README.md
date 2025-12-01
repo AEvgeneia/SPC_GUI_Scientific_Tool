@@ -10,7 +10,7 @@
 
 A complete, step-by-step manual is available in the repository:
 
-👉 **[Download the SPC_GUI User Manual (PDF)](User Manual v1_1_0.pdf)**
+👉 **[Download the SPC_GUI User Manual (PDF)](User%20Manual%20v_1_1_0.pdf)**
 
 ---
 
