@@ -1,11 +1,41 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the associated paper listed below."
+
 authors:
   - family-names: Evgeneia
-    given-names: [Aspasia, Evangelia]
-    affiliation: Medical Physics Laboratory, School of Medicine,National and Kapodistrian University of Athens
+    given-names: Aspasia Evangelia
+    affiliation: Medical Physics Laboratory, School of Medicine, National and Kapodistrian University of Athens
 title: "GPR-SPC Analyzer: A Python Tool for Statistical Process Control of Gamma Passing Rate Data"
 version: 1.1.0
 date-released: 2025-08-08
 url: https://github.com/AEvgeneia/SPC_GUI_Scientific_Tool  
 type: software
+
+preferred-citation:
+  type: article
+  title: >
+    Institution-specific pre-treatment quality assurance control and specification limits:
+    a tool to implement a new formalism and criteria optimization using statistical process
+    control and heuristic methods
+  authors:
+    - family-names: Evgeneia
+      given-names: Aspasia Evangelia
+
+    - family-names: Alafogiannis
+      given-names: Panagiotis
+
+    - family-names: Dikaios
+      given-names: Nikolaos
+
+    - family-names: Pantelis
+      given-names: Evaggelos
+
+    - family-names: Papagiannis
+      given-names: Panagiotis
+
+    - family-names: Peppa
+      given-names: Vasiliki
+      
+  journal: Physics in Medicine & Biology
+  year: 2026
+  doi: 10.1088/1361-6560/ae399f
