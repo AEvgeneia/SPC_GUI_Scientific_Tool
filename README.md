@@ -149,7 +149,7 @@ All contributions are welcome and appreciated!
 ---
 
 ## 🧠 Acknowledgements
-This tool was developed as part of ongoing research at the Laboratory of Medical Physics, Department of Medicine, National and Kapodistrian University of Athens.
+This tool was developed within the framework of my PhD research in Medical Physics at the Laboratory of Medical Physics, Department of Medicine, National and Kapodistrian University of Athens.
 
 ---
 
